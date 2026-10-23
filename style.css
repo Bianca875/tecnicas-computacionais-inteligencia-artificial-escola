@@ -50,7 +50,9 @@ button:hover{
 
 
 .caixa-resultado{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .caixa-resultado.mostrar{
     display: block;
